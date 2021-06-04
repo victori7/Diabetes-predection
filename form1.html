@@ -1,0 +1,117 @@
+<html>
+ 
+<head>
+ 
+<title>HTML Table</title>
+ 
+</head>
+ 
+<body>
+ 
+<form method="GET" action="process.php">
+ 
+<table border="1" align="center" width="400" bgcolor="#CCCCCC" >
+ 
+<caption>Health Checkup form</caption>
+ 
+<tr>
+ 
+<th> Full name</th>
+ 
+<td><input type="text" name="fn" /></td>
+ 
+</tr>
+ 
+<tr>
+ 
+<th>Email</th>
+ 
+<td><input type="email" name="email"/></td>
+ 
+</tr>
+ 
+<tr>
+ 
+<th>mobile</th>
+ 
+<td><input type="number" name="number"/></td>
+ 
+</tr>
+ 
+<tr>
+ 
+<th>Address</th>
+ 
+<td><textarea rows="8" cols="20" name="address"></textarea></td>
+ 
+</tr>
+ 
+<tr>
+ 
+<th>Gender</th>
+ 
+<td>
+ 
+male<input type="radio" name="g" value="m"/>
+female<input type="radio" name="g" value="f"/>
+ 
+</td>
+ 
+</tr>
+ 
+<tr>
+ 
+<th> DOB</th>
+ 
+<td><input type="date" name="date"</td>
+ 
+</tr>
+ 
+<tr>
+ 
+<th>Select your Country</th>
+ 
+<td>
+ 
+<select name="country">
+ 
+<option value="" selected="selected" disabled="disabled">Select your country</option>
+ 
+<option value="India">India</option>
+ 
+<option value="pakistan">Pakistan</option>
+ 
+</select>
+ 
+</td>
+ 
+</tr>
+
+
+<tr>
+ 
+<th> Height in cm </th>
+ 
+<td><input type="number" name="h"</td>
+ 
+</tr>
+ 
+<tr>
+<th> Weight in kg </th>
+<td><input type="number" name="w"</td>
+ 
+</tr>
+<tr>
+ 
+<td colspan="2" align="center"><input type="submit" value="Save My Data"/>
+ 
+<input type="reset" value="Reset Data"/>
+ 
+</td>
+ 
+</table>
+</form>
+ 
+</body>
+ 
+</html>
